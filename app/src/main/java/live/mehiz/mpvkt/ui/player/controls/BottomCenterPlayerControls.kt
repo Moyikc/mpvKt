@@ -44,7 +44,7 @@ fun BottomCenterPlayerControls(
             Box(
                 modifier = Modifier
                     .padding(end = MaterialTheme.spacing.smaller)
-                    .widthIn(max = 30.dp)
+                    .widthIn(min = 5.dp)
             ) {
                 Button(onClick = {},
                     colors = ButtonDefaults.buttonColors(
