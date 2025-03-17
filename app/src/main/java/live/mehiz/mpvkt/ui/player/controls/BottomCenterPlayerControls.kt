@@ -48,7 +48,7 @@ fun BottomCenterPlayerControls(
             ) {
                 Button(onClick = {},
                     colors = ButtonDefaults.buttonColors(
-                    containerColor = Color.Transparent),
+                      containerColor = Color.Transparent
                     ),
                     contentPadding = PaddingValues(horizontal = 0.dp)
                 ) {
